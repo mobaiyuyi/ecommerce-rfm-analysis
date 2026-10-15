@@ -1,0 +1,15 @@
+# ---- 大体积原始数据：体积大且可重新生成，不入库 ----
+# 复现时请从 README「数据来源」下载 订单表.csv 放到 data/ 下（GBK 编码）
+data/订单表.csv
+data/订单表_clear.csv
+
+# ---- Jupyter / Python ----
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# ---- 系统 / 编辑器 ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
